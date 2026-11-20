@@ -1,0 +1,50 @@
+/* Soft brown theme refresh */
+:root{--purple:#92745b;--purple-dark:#765a43;--lav:#f4eee8;--ink:#302920;--muted:#81776d;--line:#ebe3db;--bg:#faf8f5}
+.brand>span:last-child,.eyebrow,.hero-copy h1 span,.section-heading h2 span,.spaces-section h2 span,.page-heading h1 span{color:var(--purple)}
+.brand-mark,.btn-brand{background:var(--purple);border-color:var(--purple)}
+.btn-brand:hover,.btn-brand:focus{background:var(--purple-dark);border-color:var(--purple-dark)}
+.btn-brand{box-shadow:0 7px 16px #92745b26}
+.btn-outline-brand{border-color:#dfd1c4;color:var(--purple)}
+.btn-outline-brand:hover,.side-nav a.active{background:#f4eee8;color:var(--purple)}
+.side-nav a:hover,.text-link,.table-action,.help-card a{color:var(--purple)}
+.help-card,.demo-credentials{background:#f8f3ee}
+.help-icon,.user-avatar,.room-thumb,.student-avatar{background:#efe5db;color:var(--purple)}
+.stat-icon.purple{background:#f4eee8;color:var(--purple)}
+.availability-progress .progress-bar{background:linear-gradient(90deg,#92745b,#c5a98e)}
+.available-dot{background:#92745b}
+.auth-form-wrap .form-control:focus,.booking-modal .form-control:focus,.booking-modal .form-select:focus{border-color:#b89c83;box-shadow:0 0 0 .2rem #92745b1a}
+.auth-form-wrap a{color:var(--purple)}
+.demo-credentials b{color:#765a43}
+.room-card-art.purple,.room-card-art.green,.room-card-art.orange,.room-card-art.blue{background:#f2ebe4;color:#92745b}
+.hero-section{background:radial-gradient(ellipse at 80% 30%,#f1e8df 0,transparent 43%),linear-gradient(110deg,#fff 45%,#fbf8f4 100%)}
+.cta-panel{background:linear-gradient(115deg,#765a43,#a8896d)}
+.space-visual{background-color:#eee5dc}
+.room-card-art{height:160px;display:block;overflow:hidden;background:#eee5dc}
+.room-card-art img{width:100%;height:100%;object-fit:cover;display:block}
+.room-card-art .status-pill{z-index:1}
+.room-thumb{overflow:hidden}
+.room-thumb img{width:100%;height:100%;object-fit:cover;border-radius:8px}
+.space-visual{height:190px;position:relative;overflow:hidden;display:block}
+.space-visual img{width:100%;height:100%;object-fit:cover;display:block}
+.space-visual .visual-label{position:absolute;left:14px;top:14px;z-index:1}
+@media(max-width:767px){.room-card-art{height:175px}}
+
+
+
+/* Complete soft-brown palette pass — including the login hero and helper panel. */
+:root{--purple:#92745b;--purple-dark:#765a43;--lav:#f4eee8;--soft-brown:#92745b;--deep-brown:#765a43;--pale-brown:#efe5db;--cream:#fbf8f4}
+.auth-left{background:linear-gradient(145deg,#765a43 0%,#92745b 58%,#b89b80 100%)}
+.auth-left:after{border-color:#ffffff2b;box-shadow:0 0 0 55px #ffffff0c,0 0 0 110px #ffffff08}
+.auth-left .brand>span:last-child{color:#f2e7dc}
+.auth-left .brand-mark{background:#ffffff24}
+.auth-message h1 span{color:#ead8c6}
+.auth-message p{color:#f3e9df}
+.auth-bottom{color:#eadbcd}
+.auth-left .eyebrow{color:#f0e2d5}
+.demo-credentials{border:1px solid #e7d8ca!important;background:#f8f3ee!important;box-shadow:none!important}
+.demo-credentials b,.auth-form-wrap a,.back-home:hover{color:#765a43}
+.cta-panel{background:linear-gradient(115deg,#765a43,#a8896d)}
+.cta-panel p{color:#f3e8de}
+.btn-white{color:#765a43}
+.step-number{color:#b89b80}
+.eyebrow-dot{background:#92745b;box-shadow:0 0 0 5px #efe5db}
