@@ -79,3 +79,159 @@ img,canvas{max-width:100%}
   .filter-bar{grid-template-columns:1fr}
   .search-field{grid-column:auto}
 }
+@media (max-width: 767px) {
+
+  /* Hero section */
+  .hero-section {
+    padding: 110px 0 45px;
+    overflow: hidden;
+  }
+
+  .hero-section .row {
+    row-gap: 25px !important;
+  }
+
+  /* Hero heading */
+  .hero-copy h1 {
+    font-size: clamp(2.3rem, 9vw, 3.2rem);
+    line-height: 1.12;
+    margin-bottom: 16px;
+  }
+
+  .hero-lead {
+    font-size: .95rem;
+    line-height: 1.7;
+  }
+
+  .hero-copy .btn {
+    font-size: .82rem;
+    padding: 10px 14px;
+  }
+
+  .hero-proof {
+    margin-top: 25px;
+  }
+
+  /* Hero illustration */
+  .hero-art {
+    height: 300px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .art-glow {
+    width: 260px;
+    height: 260px;
+  }
+
+  .study-illustration {
+    width: 420px;
+    height: 350px;
+    transform: scale(.72);
+    transform-origin: center center;
+  }
+
+  /* Floating notification cards */
+  .floating-note {
+    padding: 9px 11px;
+    gap: 7px;
+    max-width: 190px;
+  }
+
+  .floating-note b {
+    font-size: .65rem;
+  }
+
+  .floating-note small {
+    font-size: .57rem;
+  }
+
+  .note-top {
+    top: 0;
+    right: 0;
+  }
+
+  .note-bottom {
+    bottom: 0;
+    left: 0;
+  }
+
+  /* Other landing page sections */
+  .section-pad {
+    padding: 60px 0;
+  }
+
+  .section-heading h2,
+  .spaces-section h2 {
+    font-size: 2rem;
+  }
+
+  .space-visual {
+    height: 180px;
+  }
+
+  .cta-section {
+    padding: 20px 0 55px;
+  }
+
+  .cta-panel {
+    padding: 30px 23px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .cta-panel h2 {
+    font-size: 1.8rem;
+  }
+
+  .cta-panel .btn {
+    width: 100%;
+  }
+
+  .cta-decoration {
+    right: 5px;
+    top: 5px;
+    font-size: 100px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+
+/* Smaller phones */
+@media (max-width: 420px) {
+
+  .hero-section {
+    padding-top: 100px;
+  }
+
+  .hero-copy h1 {
+    font-size: 2.25rem;
+  }
+
+  .hero-art {
+    height: 265px;
+  }
+
+  .study-illustration {
+    transform: scale(.62);
+  }
+
+  .floating-note {
+    max-width: 165px;
+    padding: 8px;
+  }
+
+  .floating-note small {
+    font-size: .53rem;
+  }
+
+  .hero-copy .btn {
+    width: 100%;
+  }
+}
+
+
